@@ -1,4 +1,3 @@
-/* === RESET === */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-/* === HEADER === */
 header {
     width: 100%;
     padding: 25px 40px;
@@ -53,7 +51,6 @@ nav img.flag {
     text-decoration: none;
 }
 
-/* === TITRES === */
 .page-title {
     text-align: center;
     font-size: 40px;
@@ -61,13 +58,11 @@ nav img.flag {
     margin-top: 50px;
 }
 
-/* === SECTIONS PAGES === */
 section {
     width: 100%;
     padding-top: 30px;
 }
 
-/* === FORMULAIRES === */
 .form-box {
     width: 650px;
     margin: 0 auto;
@@ -101,7 +96,6 @@ textarea {
     font-size: 17px;
 }
 
-/* === FOOTER === */
 footer {
     text-align: center;
     margin-top: 60px;
@@ -110,13 +104,11 @@ footer {
     color: #ccc;
 }
 
-/* === INDEX HERO === */
-
 .hero {
     width: 100%;
     padding: 150px 0;
     text-align: center;
-    background: none; 
+    background: none;
 }
 
 .hero h1 {
@@ -140,7 +132,6 @@ footer {
     display: inline-block;
 }
 
-/* === SERVICES / PRIX CARDS === */
 .card-container {
     display: flex;
     justify-content: center;
@@ -174,7 +165,6 @@ footer {
     width: 40px;
 }
 
-/* === CONTACT PAGE === */
 .contact-layout {
     width: 100%;
     max-width: 1200px;
@@ -219,7 +209,6 @@ footer {
     border: 1px solid #e00909;
 }
 
-/* === GOOGLE MAPS PLACEHOLDER === */
 .map-box {
     width: 900px;
     height: 220px;
@@ -233,13 +222,13 @@ footer {
     color: white;
 }
 
-/* === APROPOS === */
 .values-boxes {
     display: flex;
     justify-content: center;
     margin-top: 60px;
     gap: 80px;
 }
+
 
 .team-section {
     margin-top: 60px;
@@ -258,23 +247,14 @@ footer {
     margin-top: 40px;
     text-align: center;
 }
+
 .contact-icon {
     width: 26px;
     height: 26px;
     margin-right: 10px;
-    vertical-align: middle;
 }
 
-body.apropos-bg {
-    background: url("https://images.unsplash.com/photo-1579758629938-03607ccdbaba") center/cover no-repeat fixed;
-    background-size: cover;
-}
-.apropos-bg {
-    background: url("https://images.unsplash.com/photo-1579758629938-03607ccdbaba") center/cover no-repeat fixed;
-    min-height: 100vh;
-    width: 100%;
-}
-/* === ARRIÈRE-PLAN COMPLET POUR LA PAGE À PROPOS === */
+
 .apropos-bg {
     position: relative;
     background: url("https://images.unsplash.com/photo-1579758629938-03607ccdbaba") center/cover no-repeat fixed;
@@ -282,7 +262,6 @@ body.apropos-bg {
     width: 100%;
 }
 
-/* Overlay noir transparent pour lisibilité */
 .apropos-bg::before {
     content: "";
     position: absolute;
@@ -290,16 +269,16 @@ body.apropos-bg {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.55); /* assombrissement */
+    background: rgba(0, 0, 0, 0.55);
     z-index: 0;
 }
 
-/* Le contenu passe par-dessus l’overlay */
 .apropos-bg * {
     position: relative;
     z-index: 1;
 }
-/* === ARRIÈRE-PLAN COMPLET POUR LA PAGE ACCUEIL === */
+
+
 .accueil-bg {
     position: relative;
     background: url("photo-1689877020200-403d8542d95d.avif") center/cover no-repeat fixed;
@@ -307,7 +286,6 @@ body.apropos-bg {
     width: 100%;
 }
 
-/* Overlay sombre (comme À propos) */
 .accueil-bg::before {
     content: "";
     position: absolute;
@@ -319,8 +297,13 @@ body.apropos-bg {
     z-index: 0;
 }
 
-/* Le contenu passe par-dessus */
 .accueil-bg * {
     position: relative;
     z-index: 1;
+}
+
+
+iframe {
+    border: 2px solid #e00909;
+    border-radius: 10px;
 }
