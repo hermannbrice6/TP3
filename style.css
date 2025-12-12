@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -229,7 +230,6 @@ footer {
     gap: 80px;
 }
 
-
 .team-section {
     margin-top: 60px;
 }
@@ -254,7 +254,6 @@ footer {
     margin-right: 10px;
 }
 
-
 .apropos-bg {
     position: relative;
     background: url("https://images.unsplash.com/photo-1579758629938-03607ccdbaba") center/cover no-repeat fixed;
@@ -277,7 +276,6 @@ footer {
     position: relative;
     z-index: 1;
 }
-
 
 .accueil-bg {
     position: relative;
@@ -302,9 +300,42 @@ footer {
     z-index: 1;
 }
 
-
 iframe {
     border: 2px solid #e00909;
     border-radius: 10px;
 }
 
+/* === CENTRAGE COMPLET DE LA PAGE ACCUEIL === */
+.home-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.home-wrapper .page-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.home-wrapper .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 10px;
+}
+
+.hero {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.hero p {
+    margin-bottom: 10px;
+}
